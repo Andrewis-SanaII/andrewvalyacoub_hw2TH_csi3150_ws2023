@@ -5,67 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me - Fun Facts</title>
     <link rel="icon" href="../assets/img/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <!--heading-->
-      <h1>Some Fun Facts About Me - Andrewval Yacoub</h1>
-
-      <!-- navigation menu-->
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../html/resume.html">Resume</a></li>
-          <li><a href="#./html/Fun-Facts.html">Fun Facts</a></li>
-        </ul>
-      </nav>
+      <h1><img src="../assets/img/cross2.jpg" alt=""></h1>
+      <h1>Some Fun Facts About Me</h1>
+      <h2 id="header2" class="heading-group">Andrewval Yacoub</h2>
     </header>
+
+    <!-- navigation menu-->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/resume.html">Resume</a></li>
+        <li><a href="#./html/Fun-Facts.html">Fun Facts</a></li>
+      </ul>
+    </nav>
     <hr />
     <!--Favorite Book-->
-    <article>
+    <article class="favorite-book">
       <header>
-        <h3>Favorite Book</h3>
-        <h4>12 Rules for Life by Jordan B. Peterson</h4>
-
-        <!--Used image from local assets folder-->
-        <a
-          href="https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021"
-        >
-          <img
-            src="../assets/img/12rules.jpg"
-            width="200px"
-            alt="Image not supported by browser"
-          />
-        </a>
-        <p>
-          12 Rules for Life An Antidote to Chaos by Dr. Jordan Peterson is a
-          great book to combat the chaos that society presents to us in today's
-          world. It's almost a self help book, only Dr. Peterson allows you to
-          think your way through Chaos instead of giving you a straight solution
-          for everything. 12 Rules is a great book for those who are struggling
-          to find some moment of relief or peace in their lives. If you like
-          psychology, you'll love the book! The only thing I would say is that
-          before reading, you must believe in Dr. Peterson's assumption that God
-          exists, and that the Bible is more than a collection of fairy tales.
-        </p>
+        <div class="book-details">
+          <div class="book-text">
+            <h4>Favorite Book</h4>
+            <h3>12 Rules for Life by Jordan B. Peterson</h3>
+            <p>
+              12 Rules for Life An Antidote to Chaos by Dr. Jordan Peterson is a
+              great book to combat the chaos that society presents to us in
+              today's world. It's almost a self help book, only Dr. Peterson
+              allows you to think your way through Chaos instead of giving you a
+              straight solution for everything. 12 Rules is a great book for
+              those who are struggling to find some moment of relief or peace in
+              their lives. If you like psychology, you'll love the book! The
+              only thing I would say is that before reading, you must believe in
+              Dr. Peterson's assumption that God exists, and that the Bible is
+              more than a collection of fairy tales.
+            </p>
+          </div>
+          <div class="book-image">
+            <a
+              href="https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021"
+              target="_blank"
+            >
+              <img
+                src="../assets/img/12rules.jpg"
+                width="750px"
+                alt="Image not supported by browser"
+              />
+            </a>
+          </div>
+        </div>
       </header>
     </article>
 
-    <header>
+    <section class="favorite-song">
       <hr />
-      <h2>Favorite Song</h2>
-      <h3>Short Lives - Evin Agassi</h3>
-    </header>
-    <!--I added the controls option to the audio tag, it allows the user to control the audio though on screen setting-->
-    <p>
-      <audio src="../assets/audio/Kheyeh-Chiryeh.m4a" controls></audio>
-      <a
-        href="https://open.spotify.com/track/5OtDhAFh6htuhNtSb6luTD?si=60a1f0fe6e2f47d4"
-      >
-        <img src="../assets/img/spotify.png" width="50" alt="Spotify Link"
-      /></a>
-    </p>
-    <hr />
+      <header>
+        <h2>Favorite Song: &emsp13; Short Lives - Evin Agassi</h2>
+        <br />
+      </header>
+      <p>
+          <div class="audio-container">
+
+        <audio src="../assets/audio/Kheyeh-Chiryeh.m4a" controls></audio>
+        <a
+          href="https://open.spotify.com/track/5OtDhAFh6htuhNtSb6luTD?si=60a1f0fe6e2f47d4"
+        >
+          <img src="../assets/img/spotify.png" width="50" alt="Spotify Link" />
+        </a>
+      </p>
+    </section>
+
     <section>
       <header>
         <h2>Favorite Movie</h2>
